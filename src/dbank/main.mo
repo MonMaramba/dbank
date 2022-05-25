@@ -3,7 +3,7 @@ import Time "mo:base/Time";
 import Float "mo:base/Float";
 
 actor DBank {
-  stable var currentValue: Float = 300;
+  stable var currentValue: Float = 301;
   // stable enables persistence. := will still change it
   // currentValue := 100; will still change it even with stable enabled
 
